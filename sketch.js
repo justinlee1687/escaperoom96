@@ -35,6 +35,7 @@ var showcut;
 var scissorinhand;
 var showmilk;
 var back2;
+var room3mus;
 
 function preload()
 {
@@ -71,6 +72,8 @@ function preload()
   scissors = loadImage('https://dl.dropboxusercontent.com/s/p7n8yirmsm3tbb6/PNGPIX-COM-Scissors-PNG-Transparent-Image-1-1.png?dl=0')
 
   notez = loadImage('https://dl.dropboxusercontent.com/s/pgll31s6vh4lomx/10151236.png?dl=0')
+
+  room3mus = loadSound('https://dl.dropboxusercontent.com/s/3h3nl1mzgf8u4sh/room3.m4a?dl=0')
 
 }
 
@@ -139,10 +142,13 @@ function draw()
 
   fill(255,0,0);
 
-  text(mouseX,110,10);
-  text(mouseY,110,20);
+  //text(mouseX,110,10);
+  //text(mouseY,110,20);
 
   sidebar();
+
+  //room3mus.play();
+
 
 }
 
